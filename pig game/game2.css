@@ -1,0 +1,179 @@
+body{
+  background-image: url(HD-wallpaper-gradient-background-color-yellow-orange-thumbnail.jpg)
+  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box2 {
+  position: absolute;
+  height: 400px;
+  width: 380px;
+  border-style: solid;
+  top: 190px;
+  left: 800px;
+  background-color: rgba(10, 143, 176, 0.466);
+  border: none;
+  border-radius: 10px;
+  transition:2s;
+}
+.newgame {
+  display: block;
+  width: 100px;
+  height: 90px;
+  border-radius: 30px;
+  opacity: 0.7;
+  cursor: pointer;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.rolldice {
+  display: block;
+  width: 90px;
+  height: 50px;
+  margin-top: 20px;
+  opacity: 0.7;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.rolldice:hover {
+  opacity: 0.5;
+}
+
+.newgame:hover {
+  opacity: 0.5;
+}
+.hold:hover {
+  opacity: 0.5;
+}
+
+.hold {
+  display: block;
+  width: 90px;
+  height: 50px;
+  margin-top: 20px;
+  opacity: 0.7;
+  border-radius: 20px;
+  padding-right: 10px;
+  cursor: pointer;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.box3 {
+  position: absolute;
+  top: 250px;
+  left: 620px;
+  
+}
+.box1 {
+  position: absolute;
+  height: 400px;
+  width: 380px;
+  border-style: solid;
+  top: 190px;
+  left: 150px;
+  background-color: rgba(10, 143, 176, 0.466);
+  border: none;
+  border-radius: 10px;
+  transition: 2s;
+  
+}
+.p1 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(118, 243, 243);
+  margin-left: 150px;
+}
+.hs1 {
+  margin: 0%;
+  
+  color: aliceblue;
+  font-size: 70px;
+  text-align: center;
+}
+
+.cr{
+    
+    margin-top:60px ;
+    border-style: solid;
+    width: 170px;
+    text-align: center;
+    display: block;
+    margin-left: 100px;
+    background-color: brown;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+.cs0{
+    font-size: 50px;
+  }
+  .p2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(202, 216, 216);
+    margin-left: 150px;
+  }
+  .hs0 {
+    margin: 0%;
+    
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .cr1{
+    
+    margin-top:60px ;
+    border-style: solid;
+    width: 170px;
+    text-align: center;
+    display: block;
+    margin-left: 100px;
+    background-color: brown;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    padding-top: 30px;
+    border-radius: 20px;
+  }
+  .cs1{
+    font-size: 50px;
+  }
+  .dce{
+    height: 60px;
+    position: relative;
+    left: 42%;
+    top: 25%;
+  }
+  .dice{
+    margin-top: 100px;
+  }
+  .hidden{
+    display: none;
+  }
+
+  .win{
+    display: block;
+  }
+
+  .dis{   
+    display: none;
+    justify-content: center;
+    margin-top: 22%;
+    margin-left: 38%;
+    font-size: 40px;
+  }
+  .pad{
+    padding: 35px;
+    transition: 2s;
+  }
